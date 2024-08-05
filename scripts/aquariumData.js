@@ -56,5 +56,47 @@ export const database = {
             diet: "Carnivore",
             image: "https://cff2.earth.com/uploads/2020/12/14093145/shutterstock_3201286673-scaled.jpg"
           }
+    ],
+    tips: [
+      {
+        topic: "Water Temperature",
+        text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+      },
+      {
+        topic: "Tank Size",
+        text: "Choose a tank size appropriate for the species and number of fish you plan to keep. Overcrowding can lead to stress and disease."
+      },
+      {
+        topic: "Filtration",
+        text: "Use a reliable filter to remove waste and maintain water quality. Choose a filter rated for your tank size."
+      },
+      {
+        topic: "Water Changes",
+        text: "Perform regular partial water changes (25-50%) weekly to remove nitrates and replenish essential minerals."
+      },
+      {
+        topic: "pH Level",
+        text: "Monitor and maintain the appropriate pH level for your fish species. Most tropical fish prefer a pH between 6.5 and 7.5."
+      },
+      {
+        topic: "Lighting",
+        text: "Provide adequate lighting for your fish and plants. Use a timer to maintain a consistent day/night cycle."
+      },
+      {
+        topic: "Feeding",
+        text: "Feed your fish a high-quality diet appropriate for their species and age. Avoid overfeeding, as it can pollute the water."
+      },
+      {
+        topic: "Aquascaping",
+        text: "Create a stimulating environment with plants, rocks, and other decorations. This provides hiding places and enrichment for your fish."
+      },
+      {
+        topic: "Quarantine",
+        text: "Quarantine new fish for at least two weeks before introducing them to your main tank to prevent the spread of diseases."
+      },
+      {
+        topic: "Observation",
+        text: "Regularly observe your fish for signs of illness or stress, such as changes in behavior, appetite, or appearance."
+      }
     ]
 }
