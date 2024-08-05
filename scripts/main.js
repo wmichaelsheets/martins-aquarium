@@ -1,13 +1,13 @@
 import { fishList } from './fishList.js'
-import { tipList } from './tipList.js'
-import { locationList } from './locationList.js'
+//import { tipList } from './tipList.js'
+//import { locationList } from './locationList.js'
 
 // Generate the fish list
-const fishList = document.getElementById('fishList')
+const fishListElement = document.getElementById('fishList')
 const fishHTML = fishList()
 
-if (fishList) {
-    fishList.innerHTML = fishHTML
+if (fishListElement) {
+    fishListElement.innerHTML = fishHTML
 } else {
     console.error('Could not find element with id "fish-list"')
 };
