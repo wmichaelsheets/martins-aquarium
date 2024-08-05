@@ -98,5 +98,62 @@ export const database = {
         topic: "Observation",
         text: "Regularly observe your fish for signs of illness or stress, such as changes in behavior, appetite, or appearance."
       }
-    ]
+    ],
+    locations: [
+        {
+          "name": "Great Barrier Reef",
+          "country": "Australia",
+          "description": "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+        },
+        {
+          "name": "The Red Sea",
+          "country": "Egypt",
+          "description": "Known for its vibrant coral reefs and diverse marine life, the Red Sea is a popular destination for scuba diving and snorkeling."
+        },
+        {
+          "name": "The Maldives",
+          "country": "Maldives",
+          "description": "This island nation in the Indian Ocean is famous for its crystal-clear waters and incredible array of tropical fish species."
+        },
+        {
+          "name": "The Great Blue Hole",
+          "country": "Belize",
+          "description": "Located in the center of the Lighthouse Reef Atoll, the Great Blue Hole is a stunning underwater sinkhole and a UNESCO World Heritage Site."
+        },
+        {
+          "name": "Raja Ampat",
+          "country": "Indonesia",
+          "description": "Located off the coast of West Papua, Raja Ampat is known for its incredible biodiversity and vibrant coral reefs."
+        },
+        {
+          "name": "The Galapagos Islands",
+          "country": "Ecuador",
+          "description": "This unique ecosystem is home to an incredible array of tropical fish species, including many that can be found nowhere else on the planet."
+        },
+        {
+          "name": "The Caribbean Sea",
+          "country": "Multiple",
+          "description": "The Caribbean Sea is home to numerous tropical islands and coral reefs, including the Bahamas, Bonaire, and the Cayman Islands."
+        },
+        {
+          "name": "Hawaii",
+          "country": "USA",
+          "description": "The Hawaiian Islands are home to some of the most beautiful and diverse coral reefs in the world, with an incredible array of tropical fish species."
+        },
+        {
+          "name": "The Philippines",
+          "country": "Philippines",
+          "description": "With over 7,000 islands, the Philippines is home to some of the most biodiverse waters in the world, including the famous Tubbataha Reef National Park."
+        },
+        {
+          "name": "The Seychelles",
+          "country": "Seychelles",
+          "description": "Located off the coast of East Africa, the Seychelles is an archipelago of 115 islands with stunning coral reefs and diverse marine life."
+        },
+        {
+          "name": "Bora Bora",
+          "country": "French Polynesia",
+          "description": "This small South Pacific island is famous for its overwater bungalows and stunning coral reefs, home to a diverse array of tropical fish species."
+        }
+      ]
 }

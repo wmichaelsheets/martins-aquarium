@@ -1,6 +1,6 @@
 import { fishList } from './fishList.js'
 import { tipList } from './tipList.js'
-//import { locationList } from './locationList.js'
+import { locationList } from './locationList.js'
 
 // Generate the fish list
 const fishListElement = document.getElementById('fishList')
@@ -23,6 +23,12 @@ if (tipListElement) {
 }
 
 // Generate the location list
+const locationListElement = document.getElementById("locationList")
 const locationHTML = locationList()
 
+if (locationListElement) {
+    locationListElement.innerHTML = locationHTML
+}else {
+    console.error('Could not find element with id "location-list"')
+}
 // Render each HTML string to the correct DOM element
