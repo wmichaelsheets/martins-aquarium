@@ -1,62 +1,134 @@
 export const database = {
-    fish: [
-        {
-            name: "Nemo",
-            species: "Clownfish",
-            length: 3,
-            location: "Great Barrier Reef",
-            diet: "Omnivore",
-            image: "https://i.pinimg.com/originals/50/e2/a0/50e2a0bdde0faadf63f337e32cd68b3e.jpg"
-        },
-        {
-            name: "Dory",
-            species: "Blue Tang",
-            length: 5,
-            location: "Great Barrier Reef",
-            diet: "Omnivore",
-            image: "https://www.fishlaboratory.com/wp-content/uploads/2022/05/Blue-Tang-1-1024x639.jpeg"
-        },
-        {
-            name: "Luna", 
-            species: "Angelfish", 
-            length: 5, 
-            location: "Amazon River Basin", 
-            diet: "Omnivore", 
-            image: "https://www.publicdomainpictures.net/pictures/60000/velka/angelfish.jpg" 
-        },          
-        {
-            name: "Bruce",
-            species: "Great White Shark",
-            length: 15,
-            location: "Atlantic Ocean",
-            diet: "Carnivore",
-            image: "https://www.animalspot.net/wp-content/uploads/2022/02/Great-White-Shark.jpg"
-          },
-          {
-            name: "Gill",
-            species: "Moorish Idol",
-            length: 5,
-            location: "Red Sea",
-            diet: "Omnivore",
-            image: "http://www.animalspot.net/wp-content/uploads/2012/03/Moorish-Idol.jpg"
-          },
-          {
-            name: "Bloat",
-            species: "Pufferfish",
-            length: 2,
-            location: "Indian Ocean",
-            diet: "Carnivore",
-            image: "http://ourmarinespecies.com/wp-content/uploads/2019/04/puffer_fish_1.jpg"
-          },
-          {
-            name: "Peach",
-            species: "Starfish",
-            length: 4,
-            location: "Pacific Ocean",
-            diet: "Carnivore",
-            image: "https://cff2.earth.com/uploads/2020/12/14093145/shutterstock_3201286673-scaled.jpg"
-          }
-    ],
+  fish: [
+    {
+      name: "Dory",
+      species: "Blue Tang",
+      length: 2,
+      location: "Great Barrier Reef",
+      diet: "Omnivore",
+      image: "https://i.natgeofe.com/n/e7629970-7a7c-4980-abaa-e144307bd7cc/blue-tang-nationalgeographic_2175267.jpg"
+    },
+    {
+      name: "Nemo",
+      species: "Clownfish",
+      length: 3,
+      location: "Coral Reefs",
+      diet: "Omnivore",
+      image: "https://i.pinimg.com/originals/50/e2/a0/50e2a0bdde0faadf63f337e32cd68b3e.jpg"
+    },
+    {
+      name: "Bruce",
+      species: "Great White Shark",
+      length: 5,
+      location: "Pacific Ocean",
+      diet: "Carnivore",
+      image: "https://3.bp.blogspot.com/-hyYrpZWawec/T71fpKSFIgI/AAAAAAAAGHA/nCRAKYPDKXk/s1600/great-white-shark_1200x900.jpg"
+    },
+    {
+      name: "Marlin",
+      species: "Clownfish",
+      length: 4,
+      location: "Coral Reefs",
+      diet: "Omnivore",
+      image: "https://i.pinimg.com/originals/50/e2/a0/50e2a0bdde0faadf63f337e32cd68b3e.jpg"
+    },
+    {
+      name: "Nurse",
+      species: "Nurse Shark",
+      length: 6,
+      location: "Caribbean Sea",
+      diet: "Carnivore",
+      image: "https://hdwpro.com/wp-content/uploads/2016/10/Ladylinda-Nurse-Shark.jpg"
+    },
+    {
+      name: "Goldie",
+      species: "Goldfish",
+      length: 1,
+      location: "Freshwater Aquariums",
+      diet: "Omnivore",
+      image: "https://cdn.sheknows.com/articles/2014/05/Mike_C/ChefMom/Goldfish2.jpg"
+    },
+    {
+      name: "Jaws",
+      species: "Great White Shark",
+      length: 15,
+      location: "Atlantic Ocean",
+      diet: "Carnivore",
+      image: "https://3.bp.blogspot.com/-hyYrpZWawec/T71fpKSFIgI/AAAAAAAAGHA/nCRAKYPDKXk/s1600/great-white-shark_1200x900.jpg"
+    },
+    {
+      name: "Bubbles",
+      species: "Betta Fish",
+      length: 3,
+      location: "Southeast Asia",
+      diet: "Carnivore",
+      image: "https://piscespros.com/wp-content/uploads/2020/12/Side-Betta-scaled.jpg"
+    },
+    {
+      name: "Finn",
+      species: "Pufferfish",
+      length: 5,
+      location: "Tropical Oceans",
+      diet: "Carnivore",
+      image: "https://ourmarinespecies.com/wp-content/uploads/2019/04/puffer_fish_1.jpg"
+    },
+    {
+      name: "Splash",
+      species: "Mahi-Mahi",
+      length: 10,
+      location: "Warm Seas",
+      diet: "Carnivore",
+      image: "https://trangthuyseafood.vn/UploadImages/Mahi-Mahi.jpg"
+    },
+    {
+      name: "Ziggy",
+      species: "Zebra Fish",
+      length: 2,
+      location: "Freshwater Rivers",
+      diet: "Omnivore",
+      image: "https://thumbs.dreamstime.com/b/zebrafish-zebra-barb-danio-rerio-freshwater-aquarium-fish-zebrafish-zebra-barb-danio-rerio-freshwater-aquarium-fish-fish-174627946.jpg"
+    },
+    {
+      name: "Spike",
+      species: "Stingray",
+      length: 4,
+      location: "Coastal Waters",
+      diet: "Carnivore",
+      image: "https://marinesanctuary.org/wp-content/uploads/2020/12/IYORBank_Rays_GregoryPiper_01-scaled.jpg"
+    },
+    {
+      name: "Tina",
+      species: "Tetra",
+      length: 1,
+      location: "Amazon River",
+      diet: "Herbivore",
+      image: "https://www.fishlaboratory.com/wp-content/uploads/2022/07/X-Ray-Tetra-2048x1335.jpeg"
+    },
+    {
+      name: "Flash",
+      species: "Sardine",
+      length: 5,
+      location: "Pacific Ocean",
+      diet: "Omnivore",
+      image: "https://www.consoguidepoisson.fr/wp-content/uploads/2016/10/287908.jpg"
+    },
+    {
+      name: "Ray",
+      species: "Manta Ray",
+      length: 9,
+      location: "Tropical Waters",
+      diet: "Planktivore",
+      image: "https://4.bp.blogspot.com/-qsO2RvLvLmg/UondIOh8zhI/AAAAAAAAD44/BUxiC4DlzSQ/s1600/Manta_Ray_.jpg"
+    },
+    {
+      name: "Willy",
+      species: "Whale Shark",
+      length: 20,
+      location: "Tropical Oceans",
+      diet: "Planktivore",
+      image: "https://www.treehugger.com/thmb/Jom5YHldd1GT_FAXC4IUKuxre7E=/3849x2561/filters:fill(auto,1)/GettyImages-544514719-5a9358401c154adb9831c625f1af6bdd.jpg"
+    }
+  ],
     tips: [
       {
         topic: "Water Temperature",
